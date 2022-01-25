@@ -124,6 +124,7 @@ const Comprosser=()=> {
     // 需求设想：默认宽高，可设置宽高，可文件夹压缩
   return (
     <div>
+      <div>try push</div>
         <canvas id="canvas" ref={refCanvas} width={wid} height={hei}></canvas>
       <input type="file" 
       id="input"
